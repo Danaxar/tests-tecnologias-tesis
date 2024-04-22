@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './holamundo.component.css'
 })
 export class HolamundoComponent {
-  variable = 'Hola MundoXD';
+  variable = 'Hola Mundoooo';
+
+  saludar(){
+    alert('Hola mundo');
+  }
 }
