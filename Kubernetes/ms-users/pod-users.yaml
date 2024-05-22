@@ -2,6 +2,8 @@ apiVersion: v1 # Versión de la api de kubernetes que vamos a utilizar para crea
 kind: Pod # Tipo de recurso que vamos a crear (Pod, Deployment, Service, etc)
 metadata:
   name: ms-users
+  labels:
+    app: ms-users
 spec:
   containers:
     - name: ms-users
