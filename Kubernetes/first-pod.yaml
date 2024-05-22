@@ -1,0 +1,8 @@
+apiVersion: v1 # Versión de la api de kubernetes que vamos a utilizar para crear el recurso
+kind: Pod # Tipo de recurso que vamos a crear (Pod, Deployment, Service, etc)
+metadata:
+  name: mi-primer-pod
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
